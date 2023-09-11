@@ -5,8 +5,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
-    <body bgcolor =  "lightyellow">
- <table border = "4" bordercolor = "yellow" bgcolor = "green">
+    <title> Login page </title>
+    <body bgcolor =  "lightblue">
+ <table border = "4" bordercolor = "yellow" align = "center" bgcolor = "green">
          <tr>
             <th>Column 1</th>
             <th>Column 2</th>
@@ -30,7 +31,7 @@
 <table width="40%" bgcolor="blue" align="center" border="2">
 
 <tr>
-<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+<td colspan=2><center><font size=4><b> Login Page</b></font></center></td>
 </tr>
 
 <tr>
