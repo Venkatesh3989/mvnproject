@@ -28,7 +28,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh "cp /var/lib/jenkins/workspace/JENKINS_PILELINE1/mvnproj/target/myproj.war /var/lib/tomcat9/webapps/"
+                sh "cp /var/lib/jenkins/workspace/mvnproject/target/myproj.war /var/lib/tomcat9/webapps/"
             }
         }
 
