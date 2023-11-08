@@ -1,23 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('---clean---') {
+        stage('maven build') {
             steps {
                 sh "mvn clean"
-            }
-        }
-        stage('--compile--') {
-            steps {
                 sh "mvn compile"
-            }
-        }
-        stage('--test--') {
-            steps {
                 sh "mvn test"
-            }
-        }
-        stage('--package--') {
-            steps {
                 sh "mvn package"
             }
         }
@@ -26,9 +14,10 @@ pipeline {
                 sh "mvn install"
             }
         }
+        
         stage('deploy') {
             steps {
-                sh "cp /var/lib/jenkins/workspace/mvnproject/target/myproj.war /var/lib/tomcat9/webapps/"
+               echo "sh cp /var/lib/jenkins/workspace/mvnproject/target/myproj.war /var/lib/tomcat9/webapps/"
             }
         }
 
