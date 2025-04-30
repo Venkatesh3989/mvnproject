@@ -1,4 +1,4 @@
-/root/mvnproj/src/main/java/org/javaee7/sample/MyApplication.java
-/root/mvnproj/src/main/java/org/javaee7/sample/PersonResource.java
-/root/mvnproj/src/main/java/org/javaee7/sample/Person.java
-/root/mvnproj/src/main/java/org/javaee7/sample/PersonDatabase.java
+/root/mvnproject/src/main/java/org/javaee7/sample/Person.java
+/root/mvnproject/src/main/java/org/javaee7/sample/PersonResource.java
+/root/mvnproject/src/main/java/org/javaee7/sample/MyApplication.java
+/root/mvnproject/src/main/java/org/javaee7/sample/PersonDatabase.java
